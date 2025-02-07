@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/KTH-Library/ws4sql/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/KTH-Library/ws4sql/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of ws4sql is to provide an R client against the `ws4sql` REST API which serves JSON over HTTP.
