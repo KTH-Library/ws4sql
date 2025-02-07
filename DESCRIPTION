@@ -1,0 +1,25 @@
+Package: ws4sql
+Title: Read from a ws4sql API instance (which serves JSON over HTTP)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Markus",
+           family = "Skyttner",
+           role = c("cre", "aut"),
+           email = "markussk@kth.se")
+Description: The ws4sql server allows remote clients to issue web transactions such as 
+    queries against a slim REST API providing JSON over http(s), where the data is backed
+    by database engines such as sqlite and duckdb. This R package provides a function to 
+    issue queries to such remote API instances and get results back in tabular form. 
+License: AGPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    RcppSimdJson, 
+    httr2, 
+    readr, 
+    tibble,
+    jsonlite
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
